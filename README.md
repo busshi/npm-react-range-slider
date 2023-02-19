@@ -52,6 +52,13 @@ function App() {
       max={100}
       step={5}
       value={value}
+      width="100px"
+      height="3px"
+      borderRadius="50%"
+      background="#eee"
+      dotColor="#306FDB"
+      dotSize="12px"
+      activeDotSize="15px"
     />
   );
 }
